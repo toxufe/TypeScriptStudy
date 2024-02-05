@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.11.16"
+  },
+  "dependencies": {
+    "term-img": "^6.0.0"
+  }
+}
