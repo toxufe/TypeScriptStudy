@@ -86,6 +86,22 @@ const person:Person  = {
                         
 原文链接：https://blog.csdn.net/qq1195566313/article/details/122173993
 
+
+### 数组类型
+```typescript
+// 类型[ ] 
+//类型加中括号
+let arr:number[];
+let arr1:string[];
+let arr2:any[];
+// 数组泛型
+// 规则 Array<类型>
+let arr:Array<number>;
+```
+
+### 函数扩展
+
+
 ## tsconfig.json
 ```json
     // 打开或关闭严格模式
