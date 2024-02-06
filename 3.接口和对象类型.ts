@@ -5,6 +5,7 @@ interface Person {
     cb:()=>void
 }
 
+
 let person:Person = {
     name: 'Tom',
     // age: 25,
