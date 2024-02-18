@@ -45,3 +45,24 @@ let obj:Obj = {
 obj.add(4);
 
 console.log(obj.user); // [ 1, 2, 3, 4 ]
+
+// 函数的重载
+let arr:number[] = [1,2,3]
+function fn5(id:number):number[];
+function fn5(arr:number[]):number[];
+function fn5():number[];
+function fn5(ids?:number|number[]):number[]{
+    if(typeof ids == 'number'){
+        return arr.filter((num)=>ids==num);
+    }else if(Array.isArray(ids)){
+        arr.push(...ids);
+        return arr;
+    }else{
+        return arr;
+    }
+        
+}
+
+console.log(fn5(1)); // [ 1 ]
+console.log(fn5([2,3])); // [ 1, 2, 3 ]
+console.log(fn5()); // [ 1, 2, 3 ]
