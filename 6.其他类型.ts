@@ -17,4 +17,4 @@ let fnn = (man: People & Man): void => {
     console.log(man);
 }
 
-fnn({ name: 'zhangsan', age: 20, sex: '男' });
+fnn({ name: 'zhangsan', age: 20, sex: '男1' });
