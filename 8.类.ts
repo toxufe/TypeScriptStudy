@@ -21,3 +21,6 @@ class Vue implements IVue {
 new Vue({
     el: '#app',
 });
+
+// 93975671-8BE0-E938-12D0-AD57C62002F2
+// 93975671-8BE0-E938-12D0-AD57C62002F2
